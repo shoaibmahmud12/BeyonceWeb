@@ -1,0 +1,56 @@
+<style>
+    /* reset some default styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* apply styles to the body */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #eee;
+    }
+
+    /* apply styles to the header */
+    header {
+      background-color: #000;
+      color: #fff;
+      padding: 1em;
+      text-align: center;
+    }
+
+    /* apply styles to the main content */
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2em;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+      margin-top: 2em;
+    }
+
+    /* apply styles to headings */
+    h1, h2, h3 {
+      margin-bottom: 1em;
+    }
+
+    /* apply styles to images */
+    img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 1em;
+    }
+
+    /* apply styles to links */
+    a {
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.2s ease-in-out;
+    }
+
+    a:hover {
+      color: #f00;
+    }
+  </style>
